@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-In order to be able to join and play on the server, you need **all** of the following:
+**In order to be able to join and play on the server, you need all of the following:**
 
 - a copy (official or cracked) of Minecraft Java Edition version 1.8 or newer - up to 1.14.4
 - a Discord account with an email attached to it
