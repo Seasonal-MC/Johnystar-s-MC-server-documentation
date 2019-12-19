@@ -12,10 +12,10 @@ No matter if you're on Discord or in-game, you can always tag someone by typing 
 
 ## Whispering/DMs/PMs
 
-On most servers you can use commands like ``/w`` or ``/tell`, however we prefer for majority of our communication to happen on Discord directly, so these commands are unfortunately disabled in favour of Discord.
+On most servers you can use commands like ``/w`` or ``/tell``, however we prefer for majority of our communication to happen on Discord directly, so these commands are unfortunately disabled in favour of Discord.
 
 ## Off topic
 
 ### Seeing the player list on Discord
 
-If you ever find yourself wondering who's currently online, but you're not in-game, just use the command ``playerlist`` (no prefixes or suffixes) on the ``#minecraft-chat`` text channel.
+If you ever find yourself wondering who's currently online, but you're not in-game, just use the command ``playerlist`` (no prefixes or suffixes) in the ``#minecraft-chat`` text channel.
