@@ -1,2 +1,9 @@
 site_name: Johnystar's MC server documentation
+nav:
+    - Home: 'index.md'
+    - Joining the server: 'joining.md'
+    - Features walkthrough:
+        - 'Chatting in-game': 'chatting-game.md'
+        - 'World map': 'dynmap.md'
+        - 'Getting otherwise unobtainable items': 'trades.md'
 theme: readthedocs
