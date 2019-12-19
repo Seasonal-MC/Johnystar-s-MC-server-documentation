@@ -39,7 +39,7 @@ The first time you connect to the server, a short setup will take place before y
 2. launch Minecraft
 3. add the Minecraft server to your Minecraft client's server list
 4. connect to the Minecraft server
-5. send the code you've been given as a DM on Discord to AuthBot as instructed by the server
+5. send the code, you've been given, as a DM on Discord to AuthBot as instructed by the server
 6. connect to the Minecraft server again
 7. register by using the ``/register {password} {password again}`` command
 8. (optional) enable auto-login if you have a paid Minecraft account using the ``/premium`` command (note: you have to enter the command twice as you get a warning that you should only do this if you're using a Minecraft account that you paid for the first time)
@@ -53,13 +53,13 @@ The first time you connect to the server, a short setup will take place before y
 
 ## Troubleshooting
 
-### Unlinking an relinking your Discord account
+### Unlinking and relinking your Discord account
 
 Do the following after connecting and logging on to the Minecraft server:
 
 1. type and enter the following command: ``/discord unlink``
 2. you have now been kicked and have to reconnect to the server
-3. after reconnecing, send the code you've been given as a DM on Discord to AuthBot as instructed by the server
+3. after reconnecting, send the code, you've been given, as a DM on Discord to AuthBot as instructed by the server
 4. done
 
 ### Forgotten password
