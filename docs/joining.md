@@ -65,3 +65,7 @@ Do the following after connecting and logging on to the Minecraft server:
 ### Forgotten password
 
 If you forgot your password to the Minecraft server and don't have auto-login enabled, then you need my help. Please contact me on Discord and I'll help you reset your password when I'm online.
+
+### Checking linked Discord accounts
+
+You can use the ``/discord linked`` command in-game to check your linked Discord accounts.
