@@ -1,3 +1,3 @@
-# Johnystar's MC server
+# Home
 
-Use the search or click a topic on the sidebar to learn more.
+Use the search function or click a topic in the sidebar to learn more.
