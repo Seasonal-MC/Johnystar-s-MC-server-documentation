@@ -3,7 +3,12 @@ nav:
     - Home: 'index.md'
     - Joining the server: 'joining.md'
     - Features walkthrough:
-        - 'Chatting in-game': 'chatting-game.md'
+        - 'In-game interface': 'UI.md'
+        - 'Chatting': 'chat.md'
         - 'World map': 'dynmap.md'
+        - 'The in-game world itself': 'world.md'
         - 'Getting otherwise unobtainable items': 'trades.md'
+    - Security:
+        - 'CoreProtect': 'coreprotect.md'
+        - 'AuthMe': 'authme.md'
 theme: readthedocs
