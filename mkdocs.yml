@@ -2,6 +2,7 @@ site_name: Johnystar's MC server documentation
 nav:
     - Home: 'index.md'
     - Joining the server: 'joining.md'
+    - Moderation: 'moderation.md'
     - Features walkthrough:
         - 'In-game interface': 'UI.md'
         - 'Chatting': 'chat.md'
@@ -11,4 +12,6 @@ nav:
     - Security:
         - 'CoreProtect': 'coreprotect.md'
         - 'AuthMe': 'authme.md'
+        - 'DiscordSRV': 'discordsrv.md'
+    - I'm still having problems: 'help.md'
 theme: readthedocs
