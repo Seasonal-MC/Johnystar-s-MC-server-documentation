@@ -53,19 +53,10 @@ The first time you connect to the server, a short setup will take place before y
 
 ## Troubleshooting
 
-### Unlinking and relinking your Discord account
+### Discord-related issues
 
-Do the following after connecting and logging on to the Minecraft server:
-
-1. type and enter the following command: ``/discord unlink``
-2. you have now been kicked and have to reconnect to the server
-3. after reconnecting, send the code, you've been given, as a DM on Discord to AuthBot as instructed by the server
-4. done
+Make sure to check out the security>DiscordSRV section.
 
 ### Forgotten password
 
 If you forgot your password to the Minecraft server and don't have auto-login enabled, then you need my help. Please contact me on Discord and I'll help you reset your password when I'm online.
-
-### Checking linked Discord accounts
-
-You can use the ``/discord linked`` command in-game to check your linked Discord accounts.
