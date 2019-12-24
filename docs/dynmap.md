@@ -15,3 +15,13 @@ Markers are turned on by default and you can see them by looking around the map.
 ## Players
 
 You can see all currently online players and where they are on the map. This can be useful when you're trying to orient yourself.
+
+## Troubleshooting
+
+### Dynmap doesn't show up or something else shows up instead
+
+Sometimes it can happen that Dynmap refuses to show up or even a weird page with random links shows up instead. If this ever happens:
+
+- make sure that the Minecraft server is running (you can do this by checking that AuthBot is online on Discord)
+- try refreshing the page (even several times)
+- if none of the above works, contact me (Johnystar)
