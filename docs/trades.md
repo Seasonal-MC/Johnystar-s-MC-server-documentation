@@ -8,7 +8,9 @@ You can open the trading GUI by using the ``/trades`` command. There you can tra
 
 All of the trades are static and never change unless a server update is released. Such updates are announced in the apropriate news text channels on Discord.
 
-## Still missing some items
+## Troubleshooting
+
+### Still missing some items
 
 Did we miss some items? Contact me (Johnystar) on Discord and let me know!
 

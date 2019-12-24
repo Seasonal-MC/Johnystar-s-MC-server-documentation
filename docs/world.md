@@ -11,3 +11,9 @@ The world has only 1 dimension and that is the overworld also reffered to as Ear
 ## Claiming land
 
 As mentioned above, you're free to claim any country, island or anything else as you wish **after discussing it with other members of the server on Discord**, however there is no build protection. This server relies on trust, but don't worry too much, in case griefers somehow get on to the server I'm fully prepared. See details in the security section.
+
+## Troubleshooting
+
+### I'm getting raided
+
+If you're getting raided (without giving permission as dumb as that is), then contact me (Johnystar) on Discord and we'll resolve the conflict.
