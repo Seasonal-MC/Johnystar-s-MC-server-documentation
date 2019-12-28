@@ -10,7 +10,6 @@ nav:
         - 'The in-game world itself': 'world.md'
         - 'Getting otherwise unobtainable items': 'trades.md'
         - 'Picture maps': 'imageonmap.md'
-        - 'Sitting down': 'gsit.md'
     - Security:
         - 'CoreProtect': 'coreprotect.md'
         - 'AuthMe': 'authme.md'
