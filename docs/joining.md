@@ -36,7 +36,7 @@ Changing your nickname later on may cause problems. I highly recommend that you 
 
 ### First time
 
-The first time you connect to the server, a short setup is necessary before you can actually play.
+The first time you connect to the server, a short setup is necessary before you can start playing.
 
 1. join the official Discord server
 2. launch Minecraft
