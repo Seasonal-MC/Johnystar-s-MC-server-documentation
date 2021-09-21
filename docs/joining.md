@@ -24,7 +24,7 @@ In order to run the most optimal version (vanilla 1.14.4) you will need:
 - a Minecraft launcher
     - Mojang's official Minecraft launcher - downloadable from minecraft.net
     - MultiMC (recommended)
-    - any other un/official or even cracked launcher (I do not condone playing illegally obtained version of Minecraft)
+    - any other un/official or even cracked launcher (I do not condone playing illegally obtained versions of Minecraft)
 
 ### Discord
 
