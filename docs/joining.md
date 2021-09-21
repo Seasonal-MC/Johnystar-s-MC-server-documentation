@@ -13,24 +13,26 @@ You can connect with any vanilla or modded Minecraft client version 1.14.4. The 
 
 In order to run the most optimal version (vanilla 1.14.4) you will need:
 
-- a system that can run Java
-    - Windows (ideally Windows 10)
+- an operating system that can run Java
+    - Windows (ideally Windows 10, but anything that can run Java's fine)
     - most Unix-like operating systems
         - Mac OS
-        - Linux (Ubuntu or Linux Mint recommended for beginners)
-        - BSD (OpenBSD, FreeBSD)
+        - Linux (Pop!_OS or Linux Mint recommended for beginners)
+        - BSD (OpenBSD, FreeBSD, ...)
         - other
     - any other OS that can run Java
 - a Minecraft launcher
     - Mojang's official Minecraft launcher - downloadable from minecraft.net
     - MultiMC (recommended)
-    - any other un/official or even cracked launcher
+    - any other un/official or even cracked launcher (I do not condone playing illegally obtained version of Minecraft)
 
 ### Discord
 
 It is required for you to have a Discord account in order to play on the server. Your Discord account has to be linked before you can play. Your Discord account also needs to be associated with an email address.
 
 ## Connecting
+
+Changing your nickname later on may cause problems. I highly recommend that you choose your nick now and keep it for at least as long as you plan on playing on the server.
 
 ### First time
 
