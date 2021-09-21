@@ -1,6 +1,6 @@
 # ImageOnMap
 
-ImageOnMap is a plugin that allows you to convert any online picture into a Minecraft map. **NOTE**: To use your own pictures, you have to upload them online somewhere, I recommend Imgur. **NOTE2**: Some image hosting services etc. won't work as well as long links.
+ImageOnMap is a plugin that allows you to convert any online picture into a Minecraft map. **NOTE**: To use your own pictures, you have to upload them online somewhere. I recommend Imgur. **NOTE2**: Some image hosting services etc. won't work, as well as long links.
 
 ## Usage
 
@@ -12,7 +12,7 @@ To create a new map, use ``/tomap {url}`` which will give you a map with the pic
 
 ### Browse and organise pictures
 
-To browse pictures you created, use the ``/maps`` command. You can grab maps from this menu, or put them back to discard them. To manage a specific picture, right click its map icon. Pictures can be renamed, deleted...
+To browse pictures you created, use the ``/maps`` command. You can grab maps from this menu or put them back to discard them. To manage a specific picture, right click its map icon. Pictures can be renamed, deleted, and more.
 
 ## Troubleshooting
 

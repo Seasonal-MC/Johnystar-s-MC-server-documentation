@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
+  
   <link rel="shortcut icon" href="../img/favicon.ico">
   <title>In-game interface - Johnystar's MC server documentation</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
   
   <script>
     // Current page data
@@ -24,9 +25,8 @@
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
   <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
-  
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -35,108 +35,67 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
         <a href=".." class="icon icon-home"> Johnystar's MC server documentation</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../joining/">Joining the server</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../moderation/">Moderation</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Features walkthrough</span>
-    <ul class="subnav">
-                <li class=" current">
-                    
-    <a class="current" href="./">In-game interface</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#in-game-user-interface">In-game user interface</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#player-list">Player list</a></li>
-        
-            <li><a class="toctree-l4" href="#player-names">Player names</a></li>
-        
-            <li><a class="toctree-l4" href="#mcmmo">mcMMO</a></li>
-        
-        </ul>
-    
-
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../joining/">Joining the server</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../moderation/">Moderation</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Features walkthrough</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">In-game interface</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#player-list">Player list</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#player-names">Player names</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mcmmo">mcMMO</a>
+    </li>
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../chat/">Chatting</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../dynmap/">World map</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../world/">The in-game world itself</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../trades/">Getting otherwise unobtainable items</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../imageonmap/">Picture maps</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Security</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../coreprotect/">CoreProtect</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../authme/">AuthMe</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../discordsrv/">DiscordSRV</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../help/">I'm still having problems</a>
-	    </li>
-          
-        </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../chat/">Chatting</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dynmap/">World map</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../world/">The in-game world itself</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../trades/">Getting otherwise unobtainable items</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../imageonmap/">Picture maps</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Security</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../coreprotect/">CoreProtect</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../authme/">AuthMe</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../discordsrv/">DiscordSRV</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../help/">I'm still having problems</a>
+                    </li>
+                </ul>
       </div>
-      &nbsp;
+    </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -165,19 +124,21 @@
       
     </li>
   </ul>
+  
   <hr/>
 </div>
+
           <div role="main">
             <div class="section">
               
                 <h1 id="in-game-user-interface">In-game user interface</h1>
 <h2 id="player-list">Player list</h2>
-<p>The player list has a special little quality of life feature that it doesn't on most servers and that is in-game time display. Wondering how long 'till the monsters come out? Check the player list!</p>
+<p>The player list has a special little quality of life feature that it doesn't on most servers and that is in-game time display. Wondering how long 'til the monsters come out? Check the player list!</p>
 <p>Bonus tip: if you ever find yourself wondering who's currently online, but you're not in-game, just use the command <code>playerlist</code> (no prefixes or suffixes) in the <code>#minecraft-chat</code> text channel.</p>
 <h2 id="player-names">Player names</h2>
-<p>One of the main reasons as to why you're forced to link your Discord account is so that all the in-game nicknames can be synced with Discord. This means that if you know what someone's called in-game, then contacting them via the in-game check or Discord is trivial and easy. More details regarding chatting in the chatting section.</p>
+<p>One of the main reasons why you're forced to link your Discord account is so that all the in-game nicknames can be synced with Discord. This means that if you know what someone's called in-game, contacting them via the in-game chat or Discord is easy. More details regarding chatting can be found in the chatting section.</p>
 <h2 id="mcmmo">mcMMO</h2>
-<p>Our server is proud to present: mcMMO, a popular plugin that allows you to level up and get better at various things. Whenever you're leveling up a bar at the top (also known as boss bar) will show up to give you helpful information!</p>
+<p>Our server is proud to present: mcMMO, a popular plugin that allows you to level up and get better at various things. Whenever you're leveling up, a bar (also known as a boss bar) will show up at the top of the screen to give you helpful information!</p>
               
             </div>
           </div>
@@ -200,7 +161,7 @@
     
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -210,20 +171,26 @@
 
   </div>
 
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-        <span><a href="../moderation/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../chat/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../moderation/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../chat/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
 </div>
     <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
     <script src="../js/theme.js" defer></script>
       <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
 
 </body>
 </html>

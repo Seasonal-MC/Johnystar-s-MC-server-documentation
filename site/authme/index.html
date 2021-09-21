@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
+  
   <link rel="shortcut icon" href="../img/favicon.ico">
   <title>AuthMe - Johnystar's MC server documentation</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
   
   <script>
     // Current page data
@@ -24,9 +25,8 @@
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
   <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
-  
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -35,106 +35,77 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
         <a href=".." class="icon icon-home"> Johnystar's MC server documentation</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../joining/">Joining the server</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../moderation/">Moderation</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Features walkthrough</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../UI/">In-game interface</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../chat/">Chatting</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../dynmap/">World map</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../world/">The in-game world itself</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../trades/">Getting otherwise unobtainable items</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../imageonmap/">Picture maps</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Security</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../coreprotect/">CoreProtect</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">AuthMe</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#authme">AuthMe</a></li>
-    
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../joining/">Joining the server</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../moderation/">Moderation</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Features walkthrough</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../UI/">In-game interface</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../chat/">Chatting</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dynmap/">World map</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../world/">The in-game world itself</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../trades/">Getting otherwise unobtainable items</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../imageonmap/">Picture maps</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Security</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../coreprotect/">CoreProtect</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">AuthMe</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#using-the-authme-authentication-plugin">Using the AuthMe authentication plugin</a>
         <ul>
-        
-            <li><a class="toctree-l4" href="#using-the-authme-authentication-plugin">Using the AuthMe authentication plugin</a></li>
-        
-            <li><a class="toctree-l4" href="#fastlogin-auto-loginpremium">FastLogin (auto-login/premium)</a></li>
-        
+    <li class="toctree-l3"><a class="reference internal" href="#registration">Registration</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#logging-in">Logging in</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#changing-your-password">Changing your password</a>
+    </li>
         </ul>
-    
-
-    </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../discordsrv/">DiscordSRV</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../help/">I'm still having problems</a>
-	    </li>
-          
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fastlogin-auto-loginpremium">FastLogin (auto-login/premium)</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#troubleshooting">Troubleshooting</a>
+    </li>
         </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../discordsrv/">DiscordSRV</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../help/">I'm still having problems</a>
+                    </li>
+                </ul>
       </div>
-      &nbsp;
+    </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -163,13 +134,15 @@
       
     </li>
   </ul>
+  
   <hr/>
 </div>
+
           <div role="main">
             <div class="section">
               
                 <h1 id="authme">AuthMe</h1>
-<p>AuthMe is a plugin that allows players who don't have the money to pay for Minecraft to play too without potentially posing a security threat to our server. We even have an extension installed called FastLogin, so that our 'premium' players don't have to worry about having to enter their password everytime they join.</p>
+<p>AuthMe is a plugin that allows players who don't have the money to pay for Minecraft to play too, without potentially posing a security threat to our server. We even have an extension installed called FastLogin, so that our 'premium' players don't have to worry about having to enter their password everytime they join.</p>
 <h2 id="using-the-authme-authentication-plugin">Using the AuthMe authentication plugin</h2>
 <p>I will only go over this very quickly as this is already described in great detail in the "Joining the server" section.</p>
 <h3 id="registration">Registration</h3>
@@ -188,8 +161,8 @@
 <li>if you forgot you password, DM me (Johnystar) on Discord and I'll help you resolve the issue when I'm online</li>
 </ul>
 <h2 id="fastlogin-auto-loginpremium">FastLogin (auto-login/premium)</h2>
-<p>If you're playing on a Minecraft account that you paid for, then you should to enable auto-login. This disables logging in with your username on offline/cracked clients thus giving you the ability to safely skip the login process!</p>
-<p><strong>HERE'S THE IMPORTANT PART</strong>: If you don't do this, your progress will be tied to your in-game nickname instead of your purchased Minecraft account. In case you'd choose to change your nickname with premium disabled, you'd have to start all over again! More over, you should enable premium as soon as you start playing and then relogin as you there's a separate save file for your "offline" and "premium" login.</p>
+<p>If you're playing on a Minecraft account that you paid for, you should enable auto-login. This disables logging in with your username on offline/cracked clients thus giving you the ability to safely skip the login process!</p>
+<p><strong>HERE'S THE IMPORTANT PART</strong>: If you don't do this, your progress will be tied to your in-game nickname instead of your purchased Minecraft account. In case you'd choose to change your nickname with premium disabled, you'd have to start all over again! Moreover, you should enable premium as soon as you start playing and then relogin as  there's a separate save file for your "offline" and "premium" login.</p>
 <p>If you have any questions left regarding the potential progress loss, contact me via Discord.</p>
 <p>In order to enable auto-login:</p>
 <ol>
@@ -198,10 +171,10 @@
 <li>it will show you a warning the first time</li>
 <li>after reading the important message it sends you, type <code>/premium</code> again to enable auto-login</li>
 <li><strong>IMPORTANT</strong> leave and rejoin the server after enabling premium!</li>
-<li>to check you have premium enabled, type something in the in-game check and if you can see your skin in the #minecraft-chat text channel, then you're done</li>
+<li>to check you have premium enabled, type something in the in-game chat and if you can see your skin in the #minecraft-chat text channel, you're done</li>
 </ol>
 <h3 id="troubleshooting">Troubleshooting</h3>
-<p>If you're having problems with toggling premium it is necessary that you contact me as soon as possible and ideally don't play on the Minecraft server untill you receive further instructions.</p>
+<p>If you're having problems with toggling premium, it is necessary that you contact me as soon as possible and ideally don't play on the Minecraft server untill you receive further instructions.</p>
               
             </div>
           </div>
@@ -224,7 +197,7 @@
     
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -234,20 +207,26 @@
 
   </div>
 
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-        <span><a href="../coreprotect/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../discordsrv/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../coreprotect/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../discordsrv/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
 </div>
     <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
     <script src="../js/theme.js" defer></script>
       <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
 
 </body>
 </html>

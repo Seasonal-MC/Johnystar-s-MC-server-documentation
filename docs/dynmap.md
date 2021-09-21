@@ -1,12 +1,12 @@
 # World map
 
-Our server implements an awesome plugin known under the name of Dynmap. This plugin allows you to view the server's map as well as see who's where and markers of various important places.
+Our server implements an awesome plugin known under the name "Dynmap". This plugin allows you to view the server's map as well as who's where and markers of various important places.
 
 ## Markers
 
 ### Creating a new marker
 
-To make sure that no non-sense markers are made, if you want to add a marker to a new building you built and even potentially get featured the ``#news-builds`` text channel, then contact me (Johnystar) on Discord.
+To make sure that no nonsense markers are made, if you want to add a marker to a new building you built and even potentially get featured in the ``#news-builds`` text channel then contact me (Johnystar) on Discord.
 
 ### Viewing markers
 
@@ -20,7 +20,7 @@ You can see all currently online players and where they are on the map. This can
 
 ### Dynmap doesn't show up or something else shows up instead
 
-Sometimes it can happen that Dynmap refuses to show up or even a weird page with random links shows up instead. If this ever happens:
+Sometimes Dynmap may refuse to show up. If this ever happens:
 
 - make sure that the Minecraft server is running (you can do this by checking that AuthBot is online on Discord)
 - try refreshing the page (even several times)
